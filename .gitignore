@@ -1,0 +1,20 @@
+# Virtual environments
+venv
+venv/
+.venv
+.venv/
+env/
+ENV/
+venv_windows/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binary models exceeding GitHub 100MB limit
+models/fish_knn_model.pkl
+
+# Operating system files
+.DS_Store
+Thumbs.db
